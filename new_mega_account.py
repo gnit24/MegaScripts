@@ -96,14 +96,14 @@ class MegaAccount:
             universal_newlines=True,
         )
         if "registered successfully!" in str(verification.stdout):
-            print("Success. Acc Deets are:")
+            print("Success. Accnt Details are:")
             print(f"{self.email} - {self.password}")
 
             # save to file
             with open("accounts.csv", "a") as csvfile:
                 csvwriter = csv.writer(csvfile)
                 # last column is for purpose (to be edited manually if required)
-                csvwriter.writerow([self.email, self.password, self.name, "-"])
+                csvwriter.writerow([self.email, self.password, self.name])
         else:
             print("Failed.")
 
