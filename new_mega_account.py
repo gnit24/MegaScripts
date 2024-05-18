@@ -14,12 +14,12 @@ import threading
 #B.) To use manually typed Password, comment out MIN, MAX & PASSWORD...join. Then Uncomment PASSWORD..."examplep.."
 #B.2) After doing step B, replace "examplepassword" with your password. Done. 
 
-#MIN_LENGTH = 8  # Minimum length of the password
-#MAX_LENGTH = 16  # Maximum length of the password
+MIN_LENGTH = 8  # Minimum length of the password
+MAX_LENGTH = 16  # Maximum length of the password
 
-#PASSWORD = ''.join(random.choice(string.ascii_letters + string.digits + string.punctuation + "!+_") for _ in range(random.randint(MIN_LENGTH, MAX_LENGTH)))
+PASSWORD = ''.join(random.choice(string.ascii_letters + string.digits + string.punctuation + "!+_") for _ in range(random.randint(MIN_LENGTH, MAX_LENGTH)))
 
-PASSWORD = "examplepassword"  # atleast 8 chars
+#PASSWORD = "examplepassword"  # atleast 8 chars
 
 
 def find_url(string):

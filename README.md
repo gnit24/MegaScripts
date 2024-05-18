@@ -1,6 +1,11 @@
 # Mega Scripts
 Create and manage mega accounts in bulk. (with automatic email verification)
 
+### New Feature
+
+**Enhanced Version**: Adds a new, password generation feature that ensures higher security through the use of a diverse character set and random lengths.
+
+
 **NOTE: You need megatools installed on your computer for this to work.**
 
 Install from your distro's repos like `dnf install megatools` or install from https://megatools.megous.com/ 
